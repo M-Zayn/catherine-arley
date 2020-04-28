@@ -106,7 +106,7 @@ $(function() {
       rtl: document.dir == 'rtl' ? true : false,
       autoplay:true,
       loop:true,
-      margin:15,
+      margin:0,
       dots:true,
       nav:true,
       responsiveClass:true,
@@ -191,5 +191,4 @@ $(function() {
 
     
 
-  
 });
