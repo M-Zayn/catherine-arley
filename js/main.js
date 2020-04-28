@@ -52,7 +52,7 @@ $(function() {
     });
 
     if ($(window).width() < 992) {
-      $(".category .cat").wrapAll("<div class='owl-carousel'></div>");
+      $(".category .cat:nth-of-type(1), .category .cat:nth-of-type(2), .category .cat:nth-of-type(3), .category .cat:nth-of-type(4), .category .cat:nth-of-type(5), .category .cat:nth-of-type(6)").wrapAll("<div class='owl-carousel'></div>");
       $('.category .owl-carousel').owlCarousel({
         rtl: document.dir == 'rtl' ? true : false,
         autoplay:true,
@@ -191,4 +191,5 @@ $(function() {
 
     
 
+  
 });
