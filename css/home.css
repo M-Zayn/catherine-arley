@@ -384,10 +384,16 @@ button {
   font-size: 18px;
   color: white;
   margin: 0 8px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .nav-bar .upper-container .icons button:nth-of-type(1) {
   display: none;
+}
+
+.nav-bar .upper-container .icons button:hover {
+  color: #f00;
 }
 
 .nav-bar .nav-list ul {
@@ -712,8 +718,8 @@ button {
 }
 
 .category .cat:hover img {
-  -webkit-filter: grayscale(50%);
-          filter: grayscale(50%);
+  -webkit-filter: grayscale(25%);
+          filter: grayscale(25%);
 }
 
 .category .cat:hover::before {
@@ -807,8 +813,8 @@ button {
 }
 
 .panners-one .panner:hover img {
-  -webkit-filter: grayscale(50%);
-          filter: grayscale(50%);
+  -webkit-filter: grayscale(25%);
+          filter: grayscale(25%);
 }
 
 .panners-one .panner:hover::before {
@@ -1009,7 +1015,7 @@ button {
 .card:hover img {
   -webkit-transform: scale(0.94);
           transform: scale(0.94);
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 /*--- card end ---*/
@@ -1079,6 +1085,15 @@ button {
 
 .panners-two .panner {
   margin: 40px 5px 0 5px;
+}
+
+.panners-two .panner img {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.panners-two .panner:hover img {
+  opacity: 0.8;
 }
 
 /*------ panners-two end ------*/
@@ -2042,5 +2057,3 @@ html[dir="ltr"] .footer .footer-list:last-child {
     content: "";
   }
 }
-
-/*# sourceMappingURL=home.css.map */
