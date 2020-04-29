@@ -1490,7 +1490,7 @@ button {
 
 @media (max-width: 992px) {
   .nav-bar {
-    padding: 44px 0 10px 0;
+    padding: 55px 0 16px 0;
   }
   .nav-bar .upper-container .icons button {
     font-size: 22px;
@@ -1505,7 +1505,8 @@ button {
     display: none;
   }
   .nav-bar .logo {
-    width: 250px;
+    width: 300px;
+    padding: 10px 0 0 0;
   }
   .nav-bar .upper-container {
     top: -30px;
@@ -2114,3 +2115,4 @@ html[dir="ltr"] .footer .footer-list:last-child {
   }
 }
 
+/*# sourceMappingURL=home.css.map */
