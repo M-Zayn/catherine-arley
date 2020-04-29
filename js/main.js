@@ -51,32 +51,7 @@ $(function() {
       navText: ["<span class='lnr lnr-chevron-right'></span>","<span class='lnr lnr-chevron-left'></span>"]
     });
 
-    if ($(window).width() < 992) {
-      $(".category .cat:nth-of-type(1), .category .cat:nth-of-type(2), .category .cat:nth-of-type(3), .category .cat:nth-of-type(4), .category .cat:nth-of-type(5), .category .cat:nth-of-type(6)").wrapAll("<div class='owl-carousel'></div>");
-      $('.category .owl-carousel').owlCarousel({
-        rtl: document.dir == 'rtl' ? true : false,
-        autoplay:true,
-        loop:true,
-        margin:0,
-        dots:true,
-        nav:true,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:6
-            }
-        },
-        navText: ["<span class='lnr lnr-chevron-right'></span>","<span class='lnr lnr-chevron-left'></span>"]
-      });
-    } else {
-
-    }
+    
       
 
     $('.sp-offers .owl-carousel').owlCarousel({
