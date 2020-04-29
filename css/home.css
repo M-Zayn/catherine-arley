@@ -1493,7 +1493,7 @@ button {
     padding: 44px 0 10px 0;
   }
   .nav-bar .upper-container .icons button {
-    font-size: 20px;
+    font-size: 22px;
   }
   .nav-bar .upper-container .icons button:nth-of-type(1) {
     display: unset;
@@ -1505,7 +1505,7 @@ button {
     display: none;
   }
   .nav-bar .logo {
-    width: 240px;
+    width: 250px;
   }
   .nav-bar .upper-container {
     top: -30px;
